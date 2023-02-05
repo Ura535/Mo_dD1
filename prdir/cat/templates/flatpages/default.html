@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Django flatpages - {% block title %} {% endblock title %}</title>
+<title>{{ flatpage.title }}</title>
 </head>
 <body>
-    <h2>Django flatpages app</h2>
-    {% block content %}
-    {% endblock content %}
+{% include 'flatpages/contact_page.html' %}
 </body>
 </html>
