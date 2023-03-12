@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'new',
+
+
 ]
 SITE_ID = 1
 MIDDLEWARE = [
